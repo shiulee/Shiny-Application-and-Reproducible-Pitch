@@ -1,0 +1,72 @@
+Shiny Application and Reproducible 
+========================================================
+Author: Shiulee Chakraborty
+Date: 17/03/2017
+
+
+Introduction
+========================================================
+
+This app is used for:
+
+- Predicting music w.r.t mood
+- Predicting movie w.r.t genre
+
+
+Instructions
+========================================================
+
+Below is the list of moods you can enter:
+
+- happy
+- sad
+- alone
+- angry
+- bitchy
+- blank
+- confused
+- depressed
+
+========================================================
+
+- energetic
+- geeky
+- high 
+- lazy
+- pleased
+ 
+Below is the list of genre you can enter:
+
+- action
+- musicals
+- biopic
+- period
+- romance
+
+========================================================
+
+- animation
+- science fiction
+- cult
+- disaster
+- spy
+- drama
+- fantasy
+- thriller
+- gangster
+- war
+- westerns
+- horror
+
+
+Slide With Code
+========================================================
+```{r}
+
+x <- rnorm(100) 
+y <- x + rnorm(100)
+plot(x,y,xlab="smile", ylab="happiness", main="Relation b/w laughing and happiness" )
+
+```
+
+
